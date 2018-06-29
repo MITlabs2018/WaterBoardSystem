@@ -1,1 +1,13 @@
 C:\Users\X550\Documents\GitHub\WaterBoardSystem\WaterBoardSystem\WaterBoardSystem\bin\Debug\WaterBoardSystem.exe.config
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\WaterBoardSystem.exe.config
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\WaterBoardSystem.exe
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\WaterBoardSystem.pdb
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.csprojResolveAssemblyReference.cache
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.Form1.resources
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.Properties.Resources.resources
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.csproj.GenerateResource.Cache
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.exe
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\obj\Debug\WaterBoardSystem.pdb
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\MySql.Data.dll
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\Google.Protobuf.dll
+L:\B\water_bill_System\project\WaterBoardSystem\WaterBoardSystem\bin\Debug\MySql.Data.xml
