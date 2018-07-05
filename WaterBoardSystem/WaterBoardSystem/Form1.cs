@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using WaterBoardSystem.Controller;
 
 
 namespace WaterBoardSystem
@@ -22,17 +23,29 @@ namespace WaterBoardSystem
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string unEntered = textBoxUn.Text;
+            string pwEntered = textBoxPw.Text;
+            String password;
             try
             {
-                MySqlConnection conn = new DBConnection().getConnection();
-              //  String query = "SELECT * FROM waterboarddb.member;";
-                MySqlCommand cmd = conn.CreateCommand();
-                cmd.CommandText = "SELECT * FROM waterboarddb.member;";
-                MySqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
+                if(new LoginController().getPassword(unEntered) != null)
                 {
-                    Console.WriteLine(rdr[0].ToString());
+                     password = new LoginController().getPassword(unEntered);
+                    if (password.Equals(pwEntered))
+                    {
+                        MessageBox.Show("Login succesful");
+                    }
+                    else{
+                        MessageBox.Show("Incorrect Password");
+                    }
                 }
+                else
+                {
+                    MessageBox.Show("Incorrect username");
+                }
+                
+                
+                  
             }
             catch (MySqlException)
             {
